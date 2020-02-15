@@ -13,4 +13,7 @@ def nyc_pigeon_organizer(data)
     end 
 end
 new_hash.each do |name, values|
-
+values.each do |hashvalue, array|
+  data.each do |colors_gender_lives, values|
+    values.each do |value, array|
+      
